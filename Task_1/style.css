@@ -24,7 +24,6 @@ h1, h2, h3, h4, h5 {
     background-color: #0e84b5;
 }
 
-
 .container {
     display: flex;
     flex-direction: column;
@@ -37,7 +36,6 @@ h1, h2, h3, h4, h5 {
 .form{
     display: inline-block;
 }
-
 
 .button{
     font-size: 20px;

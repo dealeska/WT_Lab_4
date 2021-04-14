@@ -14,10 +14,10 @@
         <div class = "header_inner">
             <div class = "header_logo">Sport</div>
             <nav class = "nav">
-                <a class = "nav_link" href = "all.html">Распродажа</a>
-                <a class = "nav_link" href = "about.html">О нас</a>
-                <a class = "nav_link" href = "order.html">Заказ товара</a>
-                <a class = "nav_link" href = "contacts.html">Контакты</a>
+                <a class = "nav_link" href = "all.html">{VAR="all"}</a>
+                <a class = "nav_link" href = "about.html">{VAR="about"}</a>
+                <a class = "nav_link" href = "order.html">{VAR="order"}</a>
+                <a class = "nav_link" href = "contacts.html">{VAR="contacts"}</a>
             </nav>
         </div>
     </div>
@@ -32,7 +32,7 @@
     <div class = "container">
         <div class ="section_header">
             <h1 class ="section_title">
-                Наличный и безналичный расчет Прием заказов 24 часа в сутки
+                {CONFIG="title.config"}
             </h1>
         </div>
     </div>
@@ -43,7 +43,7 @@
         <div class ="images">
             <div class ="image_item">
                 <div class ="image_name">{FILE="someText.txt"}</div>
-                <img src = "../../assets/Images/im_1.jpg" alt="Image">
+                <img src = '{DB="1"}' alt="Image">
             </div>
             <div class ="image_item">
                 <div class ="image_name">Гантели</div>
@@ -89,7 +89,6 @@
             <a class ="footer_name" href = "https://vk.com/dealeska#">@dealeska</a>
             <h2 class ="footer_name">{YEAR}</h2>
         </div>
-
 
     </div>
 </footer>
